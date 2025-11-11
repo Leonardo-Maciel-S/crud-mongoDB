@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Leonardo-Maciel-S/crud-mongoDB#readme",
   "dependencies": {
     "@types/express": "^5.0.5",
+    "@types/mongoose": "^5.11.96",
     "express": "^5.1.0",
     "mongodb": "^7.0.0",
     "mongoose": "^8.19.3",
