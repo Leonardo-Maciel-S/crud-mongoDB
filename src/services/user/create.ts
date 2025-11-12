@@ -5,7 +5,7 @@ export const create = async (body: User) => {
   const userExist = await user.findOne({ email: body.email });
 
   if (userExist) {
-    throw new Error("Usuário já existe");
+    throw new Error("Usuário com esse email já existe");
   }
 
   try {
