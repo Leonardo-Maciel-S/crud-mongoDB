@@ -6,5 +6,6 @@ const userRouter = express.Router();
 
 userRouter.get("/", userController.getAll);
 userRouter.post("/", userValidation.create, userController.create);
+userRouter.patch("/:id", userValidation.edit, userController.edit);
 
 export { userRouter };
