@@ -1,5 +1,6 @@
 import { create } from "./create.js";
+import { exclude } from "./delete.js";
 import { edit } from "./edit.js";
 import { getAll } from "./get-all.js";
 
-export const userController = { create, getAll, edit };
+export const userController = { create, getAll, edit, exclude };
